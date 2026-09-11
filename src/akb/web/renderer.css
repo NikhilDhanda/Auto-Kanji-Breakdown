@@ -1,0 +1,145 @@
+.akb-root {
+  --akb-outer-inset: 14px;
+  --akb-bg: #24273a; --akb-card: #2c3149; --akb-hover: #333a55; --akb-pressed: #39415e;
+  --akb-line: #454d70; --akb-text: #c7ceef; --akb-secondary: #b4bfdf; --akb-gloss: #c8a5f2;
+  --akb-on-bg: #384569; --akb-on-border: #728bd0; --akb-kun-bg: #304b59; --akb-kun-border: #559ca5;
+  --akb-chip: #414b6d; --akb-green: #a6d367; --akb-tree: #47516f; --akb-accent: #98b8ff;
+  color: var(--akb-text); background: var(--akb-bg); border: 1px solid var(--akb-line);
+  padding: 14px; border-radius: 11px; margin: 16px auto; max-width: 780px;
+  text-align: left; font: 15px/1.35 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  box-sizing: border-box; overflow-wrap: anywhere; color-scheme: dark;
+}
+.akb-root[data-akb-theme="dark"] {
+  --akb-bg: #202224; --akb-card: #2b2e32; --akb-hover: #34383d; --akb-pressed: #3d4248;
+  --akb-line: #4b5159; --akb-text: #dce0e6; --akb-secondary: #bdc5cf; --akb-gloss: #c8b9db;
+  --akb-on-bg: #354453; --akb-on-border: #738ca6; --akb-kun-bg: #304a4b; --akb-kun-border: #699b9c;
+  --akb-chip: #424952; --akb-green: #b2cc8d; --akb-tree: #505863; --akb-accent: #a8c5e4;
+}
+.akb-root[data-akb-theme="light"] {
+  --akb-bg: #f0f1f6; --akb-card: #ffffff; --akb-hover: #f4f5fc; --akb-pressed: #e8ecf7;
+  --akb-line: #c7ccdf; --akb-text: #303b55; --akb-secondary: #505e79; --akb-gloss: #69468e;
+  --akb-on-bg: #e6edff; --akb-on-border: #869bc5; --akb-kun-bg: #e2f1f1; --akb-kun-border: #709fa3;
+  --akb-chip: #e6eaf3; --akb-green: #477226; --akb-tree: #c3cadd; --akb-accent: #335e9b;
+  color-scheme: light;
+}
+.akb-root[data-akb-theme="sakura"] {
+  --akb-bg: #302630; --akb-card: #3e303e; --akb-hover: #49394a; --akb-pressed: #544255;
+  --akb-line: #6a5267; --akb-text: #edd8e5; --akb-secondary: #d4bccc; --akb-gloss: #e9b7d0;
+  --akb-on-bg: #464261; --akb-on-border: #988db6; --akb-kun-bg: #3b4c51; --akb-kun-border: #819fa7;
+  --akb-chip: #584453; --akb-green: #b8cf9e; --akb-tree: #735769; --akb-accent: #e3b4d8;
+}
+.akb-root[data-akb-theme="matcha"] {
+  --akb-bg: #e9eddf; --akb-card: #f8f8ed; --akb-hover: #eef2df; --akb-pressed: #e2e9ce;
+  --akb-line: #b9c4a6; --akb-text: #34452c; --akb-secondary: #536247; --akb-gloss: #646031;
+  --akb-on-bg: #e1e8ed; --akb-on-border: #94a6af; --akb-kun-bg: #e1ebe0; --akb-kun-border: #8bAA8d;
+  --akb-chip: #e3e8d6; --akb-green: #436c20; --akb-tree: #b9c7a6; --akb-accent: #536c31;
+  color-scheme: light;
+}
+.akb-root[data-akb-theme="brown"] {
+  --akb-bg: #261d18; --akb-card: #35251e; --akb-hover: #402d24; --akb-pressed: #4a352b;
+  --akb-line: #85634e; --akb-text: #eed8c8; --akb-secondary: #ead6c6; --akb-gloss: #f0a1ae;
+  --akb-on-bg: #343d4b; --akb-on-border: #889fb8; --akb-kun-bg: #2e493f; --akb-kun-border: #6ea88e;
+  --akb-chip: #594034; --akb-green: #c7ce87; --akb-tree: #987761; --akb-accent: #e9b39a;
+  color-scheme: dark;
+}
+.akb-root[data-akb-theme="matcha-dark"] {
+  --akb-bg: #223529; --akb-card: #2d4133; --akb-hover: #354c3b; --akb-pressed: #3c5542;
+  --akb-line: #71876a; --akb-text: #f2ead5; --akb-secondary: #eee8cd; --akb-gloss: #eebbee;
+  --akb-on-bg: #454663; --akb-on-border: #a4a1ce; --akb-kun-bg: #305451; --akb-kun-border: #88c6bf;
+  --akb-chip: #4b583d; --akb-green: #c5e697; --akb-tree: #91a58a; --akb-accent: #e6bee2;
+  color-scheme: dark;
+}
+.akb-root[data-akb-theme="sakura-light"] {
+  --akb-bg: #fff7fb; --akb-card: #fff0f6; --akb-hover: #ffe8f1; --akb-pressed: #ffdeeb;
+  --akb-line: #e99cbd; --akb-text: #4c2037; --akb-secondary: #913257; --akb-gloss: #ac075a;
+  --akb-on-bg: #eeeeff; --akb-on-border: #9894d9; --akb-kun-bg: #e8f3ef; --akb-kun-border: #73a59d;
+  --akb-chip: #f7d6e5; --akb-green: #426d31; --akb-tree: #d47b9f; --akb-accent: #a82c66;
+  color-scheme: light;
+}
+.akb-root:empty { display: none; }
+.akb-root *, .akb-root *::before, .akb-root *::after { box-sizing: border-box; }
+.akb-root .akb-card { position: relative; background: var(--akb-card); border: 1px solid var(--akb-line); border-radius: 8px; padding: 9px 13px; margin: 0 0 6px; transition: background-color .12s, border-color .12s; }
+.akb-root .akb-card:last-child { margin-bottom: 0; }
+.akb-root .akb-expandable { cursor: pointer; touch-action: manipulation; }
+@media (hover: hover) {
+  .akb-root .akb-expandable:hover { background: var(--akb-hover); border-color: var(--akb-accent); }
+  .akb-root .akb-toggle:hover, .akb-root .akb-more:hover { color: var(--akb-text); }
+}
+.akb-root .akb-expandable:active { background: var(--akb-pressed); }
+.akb-root .akb-heading, .akb-root .akb-component-row { display: flex; align-items: center; flex-wrap: wrap; gap: 5px; min-width: 0; margin: 0; padding: 0; }
+.akb-root .akb-main-char, .akb-root .akb-component-char { font-family: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif CJK JP", "Noto Serif JP", "MS Mincho", serif; font-weight: 400; line-height: 1.15; }
+.akb-root .akb-main-char { font-size: 50px; margin-right: 6px; }
+.akb-root .akb-component-char { position: relative; font-size: 34px; min-width: 34px; }
+.akb-root .akb-main-meaning, .akb-root .akb-component-meaning { display: block; color: var(--akb-gloss); font-weight: 600; margin: 1px 0 0; padding: 0; line-height: 1.35; }
+.akb-root .akb-component-meaning { font-size: 14px; }
+.akb-root .akb-reading { max-width: 100%; min-width: 0; font-size: 12px; font-weight: 600; border: 1px solid var(--akb-on-border); border-radius: 8px; padding: 2px 6px; background: var(--akb-on-bg); }
+.akb-root .akb-kun { border-color: var(--akb-kun-border); background: var(--akb-kun-bg); }
+.akb-root .akb-meta { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 0; }
+.akb-root .akb-meta-chip, .akb-root .akb-position { color: var(--akb-secondary); font-size: 11px; font-weight: 600; padding: 1px 6px; background: var(--akb-chip); border-radius: 7px; }
+.akb-root .akb-toggle, .akb-root .akb-more { color: var(--akb-accent); background: transparent; border: 0; box-shadow: none; border-radius: 5px; cursor: pointer; touch-action: manipulation; font-family: inherit; appearance: none; margin: 0; line-height: 1.35; min-height: 0; }
+.akb-root .akb-toggle { width: 40px; height: 40px; min-width: 40px; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
+.akb-root .akb-chevron { width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg); transition: transform .12s; }
+.akb-root .akb-toggle[aria-expanded="true"] .akb-chevron { transform: rotate(45deg); }
+.akb-root .akb-more { font-size: 12px; font-weight: 600; padding: 2px 5px; margin-left: 4px; width: auto; height: auto; min-width: 28px; min-height: 28px; vertical-align: baseline; }
+.akb-root .akb-expandable .akb-heading { padding-right: 27px; }
+.akb-root .akb-main-toggle { position: absolute; top: 5px; right: 3px; }
+.akb-root button:focus-visible { outline: 2px solid var(--akb-accent); outline-offset: 1px; }
+.akb-root .akb-radical > .akb-main-char, .akb-root .akb-radical > .akb-component-char { color: var(--akb-green); }
+.akb-root .akb-radical-mark { color: var(--akb-green); border: 1px solid var(--akb-green); border-radius: 6px; font-size: 11px; padding: 0 5px; }
+.akb-root .akb-tree { list-style: none; padding: 0 0 0 14px; margin: 4px 0 0 5px; border-left: 1px solid var(--akb-tree); }
+.akb-root .akb-node { position: relative; padding: 0 0 3px; margin: 0; min-width: 0; }
+.akb-root .akb-node:last-child { padding-bottom: 0; }
+.akb-root .akb-component-char::before { content: ""; position: absolute; top: 50%; left: -14px; width: 8px; border-top: 1px solid var(--akb-tree); }
+.akb-root .akb-tree .akb-tree { margin-top: 4px; }
+.akb-root .akb-tree .akb-tree .akb-component-char { font-size: 29px; }
+.akb-root .akb-tree .akb-tree .akb-component-meaning { font-size: 13px; }
+/* Cap additional indentation in unusually deep source trees. */
+.akb-root .akb-tree .akb-tree .akb-tree .akb-tree { margin-left: 0; padding-left: 5px; }
+.akb-root .akb-tree .akb-tree .akb-tree .akb-tree > .akb-node > .akb-component-row > .akb-component-char::before { left: -5px; width: 3px; }
+.akb-root [hidden] { display: none !important; }
+@media (max-width: 480px) {
+  .akb-root { --akb-outer-inset: 9px; padding: 9px; margin: 10px auto; font-size: 14px; }
+  .akb-root .akb-card { padding: 9px 10px; }
+  .akb-root .akb-main-char { font-size: 46px; }
+  .akb-root .akb-tree { padding-left: 11px; margin-left: 2px; }
+  .akb-root .akb-component-char::before { left: -11px; width: 6px; }
+}
+@media (pointer: coarse) {
+  .akb-root .akb-toggle { min-width: 44px; width: 44px; height: 44px; }
+  .akb-root .akb-more { min-width: 44px; min-height: 36px; }
+}
+/* Reading reveal buttons must fit the same line as chips without a button,
+   including when the surrounding card template styles native buttons. */
+.akb-root .akb-reading .akb-more {
+  appearance: none; display: inline; font: inherit; line-height: inherit;
+  width: auto; height: auto; min-height: 0; padding: 0 5px;
+  margin: 0 0 0 4px; vertical-align: baseline;
+}
+@media (prefers-reduced-motion: reduce) {
+  .akb-root .akb-card, .akb-root .akb-chevron { transition: none; }
+}
+
+
+.akb-root .akb-sources { display: flex; flex-direction: column; align-items: stretch; margin: 0; padding: 0; font-size: 11px; color: var(--akb-secondary); }
+.akb-root .akb-sources-toggle { align-self: flex-end; appearance: none; background: transparent; color: var(--akb-secondary); border: 0; box-shadow: none; margin: 0; padding: 4px; font: inherit; font-size: 14px; line-height: 1.35; width: 28px; height: 28px; min-height: 28px; cursor: pointer; }
+.akb-root .akb-sources-panel { margin: 3px 0 0; padding: 7px; border: 1px solid var(--akb-line); border-radius: 6px; line-height: 1.45; }
+.akb-root .akb-sources-panel div { margin: 3px 0; padding: 0; }
+.akb-root .akb-sources-panel a { color: var(--akb-accent); }
+@media (pointer: coarse) { .akb-root .akb-sources-toggle { width: 44px; height: 44px; min-height: 44px; } }
+
+/* The footer uses the existing bottom inset, without overlapping the last card. */
+.akb-root { padding-bottom: 4px; }
+.akb-root .akb-sources-panel .akb-source-heading { display: block; margin: 10px 0 3px; }
+.akb-root .akb-sources-panel .akb-source-heading:first-child { margin-top: 0; }
+.akb-root .akb-sources-panel a { display: inline-block; margin-right: 8px; }
+
+/* Only an open panel needs the same outer breathing room as the first card. */
+.akb-root .akb-sources-panel:not([hidden]) { margin-bottom: calc(var(--akb-outer-inset) - 4px); }
+.akb-root .akb-sources-panel a {
+  color: var(--akb-accent); text-decoration: underline; text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+.akb-root .akb-sources-panel a:hover { text-decoration-thickness: 2px; }
+.akb-root .akb-sources-panel a:focus-visible {
+  outline: 2px solid var(--akb-accent); outline-offset: 2px; border-radius: 2px;
+}

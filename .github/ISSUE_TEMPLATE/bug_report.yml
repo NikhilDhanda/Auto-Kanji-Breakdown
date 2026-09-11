@@ -1,0 +1,67 @@
+name: Bug report
+description: Help reproduce an Auto Kanji Breakdown problem.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use synthetic examples. Do not upload a collection or private note content.
+        Remove personal information, credentials and API keys from screenshots and diagnostics.
+  - type: input
+    id: akb_version
+    attributes:
+      label: Auto Kanji Breakdown version
+      description: Find this under Tools > Auto Kanji Breakdown > About.
+    validations:
+      required: true
+  - type: input
+    id: anki_version
+    attributes:
+      label: Anki version
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system and version
+    validations:
+      required: true
+  - type: input
+    id: mobile
+    attributes:
+      label: Mobile client and version, if relevant
+      description: Include the device OS and WebView version if known.
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include a minimal synthetic example, selected theme and relevant settings.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots, if useful
+      description: Review for private information before attaching.
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Status & Diagnostics
+      description: Paste relevant sanitized information from Tools > Auto Kanji Breakdown > Status & Diagnostics.
+  - type: textarea
+    id: other_addons
+    attributes:
+      label: Other add-ons or integrations
+      description: Mention possible interactions and Yomitan/AnkiConnect versions if relevant. Do not post API keys.

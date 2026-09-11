@@ -1,0 +1,28 @@
+{
+  "LICENSE": {
+    "url": "https://www.gnu.org/licenses/agpl-3.0.txt",
+    "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+  },
+  "licenses/EDRDG-licence.html": {
+    "url": "https://www.edrdg.org/edrdg/licence.html",
+    "sha256": "52f60ea9ca68170a2f0663d7dba381ebf1bd57c17a3347dfe21153865c156692"
+  },
+  "licenses/KANJIDIC-documentation.html": {
+    "url": "https://www.edrdg.org/wiki/KANJIDIC_Project.html",
+    "sha256": "d58b6d859772c5c2031911eb7604f2d55d50c4ac6abc8bfece17550899baaf7d"
+  },
+  "licenses/KanjiVG-documentation.html": {
+    "url": "https://kanjivg.tagaini.net/",
+    "sha256": "e99a73b52223b099e220f5c4be0206cf895d5626b543605736019f37f6049f99"
+  },
+  "licenses/CC-BY-SA-3.0.txt": {
+    "url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/main/docs/licenses/by-sa/3.0/legalcode.txt",
+    "canonical_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+  },
+  "licenses/CC-BY-SA-4.0.txt": {
+    "url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/main/docs/licenses/by-sa/4.0/legalcode.txt",
+    "canonical_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+  }
+}

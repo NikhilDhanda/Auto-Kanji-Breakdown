@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / release artifacts
+build/
+dist/
+*.ankiaddon
+
+# Upstream source datasets
+# These are downloaded separately and must not be committed.
+data_sources/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+artifacts/
+user_files/
+
+# Local credentials and disposable collection/export files
+.env
+.env.*
+!.env.example
+*.anki2
+*.anki2-*
+*.anki21
+*.apkg
+*.colpkg
+*.pid
+*.temp
+*~
+.ruff_cache/
+.tox/
+.nox/
+ENV/
+
+# Raw conversation attachments; only reviewed documentation assets belong in Git.
+.codex-remote-attachments/
+
+# Local agent guidance; contributor rules live in docs/development/principles.md.
+/AGENTS.md

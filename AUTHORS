@@ -1,0 +1,13 @@
+Auto Kanji Breakdown
+Copyright 2026 Nik Dhanda
+https://github.com/NikhilDhanda/Auto-Kanji-Breakdown
+
+Original software: GNU Affero General Public License version 3 or later.
+SPDX-License-Identifier: AGPL-3.0-or-later
+See LICENSE for the full terms, including the warranty disclaimer.
+
+KANJIDIC2: James William Breen and EDRDG (CC BY-SA 4.0 / EDRDG terms).
+KanjiVG: Ulrich Apel and contributors (CC BY-SA 3.0).
+Database compilation/transformation: Nik Dhanda; combined adaptation CC BY-SA 4.0.
+No ownership of upstream material or endorsement is claimed.
+See THIRD_PARTY_LICENSES.md and licenses/ for the distinct data terms.

@@ -1,0 +1,3 @@
+# Preserve release inputs exactly across checkouts, including upstream notices.
+# The builder copies bytes unchanged; do not apply host-dependent newline conversion.
+* -text
