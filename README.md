@@ -1,4 +1,4 @@
-# Auto Kanji Breakdown 🌱
+# Auto Kanji Breakdown
 
 **See what the kanji in your Anki cards are made of.**
 
