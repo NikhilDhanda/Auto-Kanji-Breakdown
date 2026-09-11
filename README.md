@@ -59,8 +59,8 @@ I hope it makes your study a little easier.
 ## About Me
 
 Hi, I’m **[Nik Dhanda](https://github.com/NikhilDhanda)**, a Japanese learner and
-builder from New Zealand. I created Auto Kanji Breakdown as a practical study tool
-first, then decided to share it with other learners.
+computer science student from New Zealand. I created Auto Kanji Breakdown as a practical study tool
+for my own needs at first, but since it's been so helpful in my studies, I decided to share it with other learners who could also benefit from it.
 
 ## Explore a breakdown
 
