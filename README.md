@@ -1,5 +1,3 @@
-# Auto Kanji Breakdown
-
 **Add kanji breakdown information to your Anki cards without the fuss. No need for external tools or overly complicated setups.**
 
 Auto Kanji Breakdown adds readings, meanings, radicals, components, stroke counts and available frequency information to your existing Japanese cards. Just choose your cards kanji or vocab field once to setup, then explore the kanji as you review without leaving the app. No HTML or CSS editing required.
@@ -7,17 +5,22 @@ Auto Kanji Breakdown adds readings, meanings, radicals, components, stroke count
 Free and open source. Offline-friendly, with synced mobile review and support for
 Yomitan/AnkiConnect workflows.
 
+**Beta: v0.9.0-beta.1**
+
+[⬇️ Download beta](https://github.com/NikhilDhanda/Auto-Kanji-Breakdown/releases) · [📖 Setup](docs/setup.md) · [❓ FAQ](docs/faq.md)
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-356A99?style=flat)](https://nikhildhanda.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-24292F?style=flat&logo=github&logoColor=white)](https://github.com/NikhilDhanda) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat)](https://www.linkedin.com/in/nikhil-dhanda-631142174/)
 
 ![Kanji breakdowns of 動, 秘, 麻 and 酔 in four built-in themes](docs/assets/hero-grid.png)
 
 *Real rendered examples of expanded kanji breakdowns visualized in different themes.*
 
-**Beta: v0.9.0-beta.1**
+<img width="338" height="841" alt="image" src="https://github.com/user-attachments/assets/6ba3132e-c464-46c0-8145-8e02b61fd014" />
+<img width="338" height="841" alt="image" src="https://github.com/user-attachments/assets/7735c4f6-7cb4-4234-92c4-6eed42b19c54" />
 
-[⬇️ Download beta](https://github.com/NikhilDhanda/Auto-Kanji-Breakdown/releases) · [📖 Setup](docs/setup.md) · [❓ FAQ](docs/faq.md)
+*Example of fully expanded tree of a kanji down to the individual component*
 
-## What you can do
+## Features
 
 - Read onyomi, kunyomi and English meanings without leaving the card.
 - Explore expandable component trees, radical highlights and component positions.
