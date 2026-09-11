@@ -15,8 +15,10 @@ Yomitan/AnkiConnect workflows.
 
 *Real rendered examples of expanded kanji breakdowns visualized in different themes.*
 
-<img width="338" height="841" alt="image" src="https://github.com/user-attachments/assets/6ba3132e-c464-46c0-8145-8e02b61fd014" />
-<img width="338" height="841" alt="image" src="https://github.com/user-attachments/assets/7735c4f6-7cb4-4234-92c4-6eed42b19c54" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6ba3132e-c464-46c0-8145-8e02b61fd014" width="48%" alt="Expanded kanji breakdown example 1">
+  <img src="https://github.com/user-attachments/assets/7735c4f6-7cb4-4234-92c4-6eed42b19c54" width="48%" alt="Expanded kanji breakdown example 2">
+</p>
 
 *Example of fully expanded tree of a kanji down to the individual component*
 
