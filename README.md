@@ -11,7 +11,7 @@ Yomitan/AnkiConnect workflows.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-356A99?style=flat)](https://nikhildhanda.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-24292F?style=flat&logo=github&logoColor=white)](https://github.com/NikhilDhanda) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat)](https://www.linkedin.com/in/nikhil-dhanda-631142174/)
 
-![Expanded breakdown of 磨 in the Blue theme, showing readings, meanings and nested components](docs/assets/breakdown-expanded.png)
+![Kanji breakdowns of 動, 秘, 麻 and 酔 in four built-in themes](docs/assets/hero-grid.png)
 
 *An expanded kanji breakdown in the Blue theme.*
 
