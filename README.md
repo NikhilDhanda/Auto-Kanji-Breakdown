@@ -74,6 +74,16 @@ to the character. Longer lists offer a small **+N** control to reveal the rest.
 The structure comes from KanjiVG, so some branches may look unfamiliar or more
 detailed than a textbook explanation. [Using breakdowns](docs/usage.md)
 
+## A note on accuracy
+
+Auto Kanji Breakdown is intended as a **study aid for recognizing and distinguishing kanji**, not as an authoritative source on kanji etymology or Japanese word meanings.
+
+Readings and meaning glosses come primarily from KANJIDIC2, while structural breakdowns are derived from KanjiVG. Auto Kanji Breakdown combines these datasets to present the information in a useful learner-focused form.
+
+A component's displayed English meaning does not necessarily explain why the complete kanji has its modern meaning, and a visual decomposition may not reflect the character's historical formation or the way a native Japanese speaker would consciously interpret it. Some components are useful mainly for shape recognition or pronunciation rather than meaning.
+
+Treat the breakdowns as memory and recognition cues, rather than absolute definitions. For precise word meanings, usage, or etymology, check a Japanese dictionary or a dedicated etymological reference.
+
 ## Themes
 
 Choose from eight built-in themes to match your study style.
@@ -140,16 +150,6 @@ not automatically rewrite existing notes. [Data updates](docs/database-updates.m
 breakdown data, or do both. Japanese source fields, notes, cards, scheduling and
 review history are preserved. Deleting an add-on-created field is optional and
 subject to safety checks. [Cleanup and uninstalling](docs/cleanup.md)
-
-## A note on accuracy
-
-Auto Kanji Breakdown is intended as a **study aid for recognizing and distinguishing kanji**, not as an authoritative source on kanji etymology or Japanese word meanings.
-
-Readings and meaning glosses come primarily from KANJIDIC2, while structural breakdowns are derived from KanjiVG. Auto Kanji Breakdown combines these datasets to present the information in a useful learner-focused form.
-
-A component's displayed English meaning does not necessarily explain why the complete kanji has its modern meaning, and a visual decomposition may not reflect the character's historical formation or the way a native Japanese speaker would consciously interpret it. Some components are useful mainly for shape recognition or pronunciation rather than meaning.
-
-Treat the breakdowns as memory and recognition cues, rather than absolute definitions. For precise word meanings, usage, or etymology, check a Japanese dictionary or a dedicated etymological reference.
 
 ## Licence and credits
 
