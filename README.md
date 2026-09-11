@@ -13,7 +13,7 @@ Yomitan/AnkiConnect workflows.
 
 ![Kanji breakdowns of 動, 秘, 麻 and 酔 in four built-in themes](docs/assets/hero-grid.png)
 
-*Some examples of expanded kanji breakdowns visualized in different themes.*
+*Real rendered examples of expanded kanji breakdowns visualized in different themes.*
 
 **Beta: v0.9.0-beta.1**
 
