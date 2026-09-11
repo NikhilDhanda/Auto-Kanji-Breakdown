@@ -1,8 +1,8 @@
 # Auto Kanji Breakdown
 
-**Add kanji breakdown information to your Anki cards without the fuss.**
+**Add kanji breakdown information to your Anki cards without the fuss. No need for external tools or overly complicated setups.**
 
-Auto Kanji Breakdown adds readings, meanings, radicals, components, stroke counts and available frequency information to your existing Japanese cards. Just choose your cards kanji or vocab field once to setup, then explore the kanji as you review. No HTML or CSS editing required.
+Auto Kanji Breakdown adds readings, meanings, radicals, components, stroke counts and available frequency information to your existing Japanese cards. Just choose your cards kanji or vocab field once to setup, then explore the kanji as you review without leaving the app. No HTML or CSS editing required.
 
 Free and open source. Offline-friendly, with synced mobile review and support for
 Yomitan/AnkiConnect workflows.
