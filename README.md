@@ -58,7 +58,7 @@ facing the same problem. My aim is to keep it free and convenient, without lots 
 settings to fiddle with or paid external tools to rely on. It is not perfect, but
 I hope it makes your study a little easier.
 
-## About the creator
+## About Me
 
 Hi, I’m **[Nik Dhanda](https://github.com/NikhilDhanda)**, a Japanese learner and
 builder from New Zealand. I created Auto Kanji Breakdown as a practical study tool
@@ -73,7 +73,7 @@ to the character. Longer lists offer a small **+N** control to reveal the rest.
 The structure comes from KanjiVG, so some branches may look unfamiliar or more
 detailed than a textbook explanation. [Using breakdowns](docs/usage.md)
 
-## Make it yours
+## Themes
 
 Choose from eight built-in themes to match your study style.
 
