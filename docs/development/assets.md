@@ -35,3 +35,7 @@ Review changes and Apply. Record package hash, client/OS and date. Do not embed
 planned assets until they exist or describe browser previews as real device tests.
 
 [Data attribution](../ATTRIBUTION.md) · [Third-party notices](../../THIRD_PARTY_LICENSES.md)
+
+## Hero grid
+
+See the [hero asset record](../assets/README.md) for the four-theme showcase and capture workflow.

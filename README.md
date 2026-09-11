@@ -168,4 +168,4 @@ licence does not replace the data licences.
 Bug reports, clear reproduction examples and data corrections are welcome.
 Please use synthetic examples and remove private information from screenshots.
 See [CONTRIBUTING.md](CONTRIBUTING.md) before proposing code or data changes.
-Issues are available to repository collaborators while the project is private.
+Bug reports, feature requests and data corrections are welcome through GitHub Issues.

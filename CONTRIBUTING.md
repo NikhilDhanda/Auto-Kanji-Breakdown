@@ -5,8 +5,7 @@ Keep proposals focused, and discuss larger changes before implementing them.
 
 ## Report a bug or suggest an improvement
 
-Use the issue forms when you have access to the repository. While it is private,
-non-collaborators should use the maintainer's beta feedback channel.
+Use the GitHub issue forms to report bugs or suggest improvements.
 Include the add-on version, Anki/OS versions, steps, expected and actual results,
 and relevant sanitized Status & Diagnostics information. Mention other add-ons.
 Use synthetic notes; never upload your collection, credentials or private study data.
